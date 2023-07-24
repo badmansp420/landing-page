@@ -176,10 +176,11 @@
  .container .body button {
      margin-top: 12rem;
      margin-left: 6rem;
-     background: transparent;
-     color: #415a77;
+     background: #FF6341;
+     color: #fff;
+     border: 2px solid transparent;
      font-size: 20px;
-     padding: 10px 60px;
+     padding: 12px 65px;
      font-weight: bold;
      border-radius: 50px;
      cursor: pointer;
@@ -190,6 +191,8 @@
  .container .body button:hover {
      /* transform-origin: 0%; */
      color: #ced4da;
+     background: transparent;
+     border: 2px solid #FF6341;
  }
 
  .container .courses {
@@ -246,6 +249,7 @@
      text-align: center;
      cursor: pointer;
      color: #fff;
+     /* background: #f8f8f883; */
      /* display: inline-block; */
      position: relative;
      padding: 20px;
@@ -268,31 +272,34 @@
      width: auto;
      position: absolute;
      display: contents;
-     color: #283748;
+     color: #ced4da;
      transition: all ease .5s;
  }
 
  .course-body h4 {
-     color: #415a77;
+     color: #ced4da;
      /* text-align: center; */
      font-size: 20px;
      transition: all ease .5s;
+     padding: 5px;
  }
 
  .container .courses .course:hover {
-     background: #f8f8f8;
+     background: #415a77;
      opacity: 70%;
      width: 100%;
+     color: #152039;
 
  }
 
  .container .courses .course img:hover,
  .course-body h4:hover,
  p:hover {
+
      /* opacity: 100%; */
      /* background-color: #ced4da; */
      border-radius: 1%;
-     color: #ced4da;
+     color: #152039;
  }
 
  .container .about {
@@ -464,22 +471,25 @@
 
  .contact-body button {
      color: #283748;
-     padding: 10px;
+     padding: 10px 60px;
      font-size: 16px;
      font-weight: bold;
      border-radius: 15px;
      background: #a28333;
-     color: #ced4da;
+     color: #152039;
      cursor: pointer;
      margin-top: 30px;
-     width: 20rem;
+     /* width: 20rem; */
      transition: all ease .5s;
-     border: none;
+     border: 3px solid #a28333;
+
+
  }
 
  .contact-body button:hover {
      color: #fff;
      background: #283748;
+     border: 3px solid #a28333;
  }
 
  .container .footer {
@@ -495,10 +505,9 @@
      color: #acafb2;
      /* text-shadow: 2px 2px #a282336f; */
      margin-bottom: 5px;
-     text-align: right;
-     align-items: end;
-     justify-content: end;
      padding: 10px;
+     margin-top: 1rem;
+     margin-left: 1rem;
      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
  }
 
