@@ -45,6 +45,7 @@
  .container {
      width: 100%;
      position: relative;
+     
  }
 
  .cursor {
@@ -70,20 +71,24 @@
 
 
  .container .navbar {
-     /* position: absolute;
-     top: 10px; */
-     left: 0;
+     /*position: absolute;
+     top: 10px;
+     */left: 0;
      width: 90%;
      background: transparent;
      display: flex;
      margin-top: 30px;
+     /* padding-top: 20px; */
      margin-left: 7rem;
      cursor: pointer;
      position: fixed;
      top: 0;
+     
+     height: 4rem;
      margin-bottom: 10rem;
+     z-index: 9999;
 
- }
+}
 
  .container .navbar h2 {
      color: #fff;
@@ -356,6 +361,7 @@
      margin-bottom: 4rem;
      display: flex;
      flex-wrap: wrap;
+     flex-direction: column;
  }
 
  .row {
@@ -381,6 +387,7 @@
      left: 0;
      right: 0;
      bottom: 0;
+     width: auto;
  }
 
  .container .about .about-body h4 {
